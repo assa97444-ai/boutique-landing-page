@@ -297,8 +297,8 @@ function sendWhatsApp(event){
  const name=document.getElementById('buyerName').value.trim();
  const phone=document.getElementById('buyerPhone').value.trim();
  const message=document.getElementById('buyerMessage').value.trim();
- const text=`السلام عليكم، أرغب في معرفة تفاصيل فرصة الاستحواذ على البوتيك.%0Aالاسم: ${encodeURIComponent(name)}%0Aرقم الهاتف: ${encodeURIComponent(phone)}%0Aالاستفسار: ${encodeURIComponent(message)}`;
- window.open('https://wa.me/96890911844?text='+text,'_blank','noopener');
+ const text=`أرغب في معلومات البوتيك%0Aالاسم: ${encodeURIComponent(name)}%0Aرقم الهاتف: ${encodeURIComponent(phone)}%0Aالاستفسار: ${encodeURIComponent(message)}`;
+ window.open('https://web.whatsapp.com/send?phone=96890911844&text='+text,'_blank','noopener');
 }
 </script>
 </body>
